@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="ConferenceStyling.css">
+  <title>Conference Registration</title>
+</head>
+<body>
+    <h1>Canadian Celebration of Women in Computing</h1>
+    <h2>Event Registration</h2>
+    <div id=img>
+    <img src="ConferencePicture.jpeg" alt ="Women in Tech" height=150 width=250>
+    </div>
+    <form name = "Conference Registration" action="ConferenceUploading.php" method="POST" enctype="multipart/formdata">
+
+
+	<fieldset>
+	<legend><span class="Personal">Personal Information</legend>
+	  <p>Name: <input type = "text" name = "cName" required="required"></p>
+	  <p>Phone: <input type = "tel" name = "phone" placeholder="ex: 555 666-6666"></p>
+	  <p>Postal Code: <input type = "text" name = "pCode" maxlength = "6" size = "6"></p>
+	  <p>Email: <input type = "email" name = "email"></p>
+	  <p>Profession:</p>
+	  <select name="Profession">
+	  <optgroup label ="Student">
+	  	<option>High School</option>
+	  	<option>Undergraduate</option>
+	  	<option>Graduate</option>
+	  	</optgroup>
+	  <optgroup label ="Occupation">
+	  	<option>Professional</option>
+	  	</optgroup>
+	  </select>
+	</fieldset>
+	<fieldset>
+	<legend><span class="Additional">Additional Information</legend>
+		<p>Transportation Location:</p>
+		<select name="location">
+			<option>Kingston</option>
+			<option>Toronto</option>
+			<option>London</option>
+			<option>Kitchener</option>
+			<option>Guelph</option>
+			<option>Ottawa</option>
+			</select>
+
+		<p>Accomodation?</p>
+		<input type="radio" name="yes" value="yes">Yes
+		<input type="radio" name="yes" value="No">No
+
+		<p>Please upload a picture. &nbsp &nbsp
+	  	<input type="file" name = "ProfilePhoto"></p>
+
+	</fieldset>
+
+	<fieldset>
+	<legend><span class="Sessions">Sessions</legend>
+	<input type="checkbox" name="session" value="choice1">
+	Session 1<br>
+	<input type="checkbox" name="Session" value="choice2">
+	Session 2<br>
+	<input type="checkbox" name="session" value="choice3">
+	Session 3<br>
+	<input type="checkbox" name="session" value="choice4">
+	Session 4<br>
+	<input type="checkbox" name="session" value="choice5">
+	Session 5
+
+	</fieldset>
+
+	<input type="reset" value="Reset" name="reset">
+	<input type="submit" value="Sign Up" name = "Submit">
+	</form>
+
+	<footer id= "copyright">Copyright 2017 CISC 282<br>
+				All rights reserved</footer>
+</body>
+</html>

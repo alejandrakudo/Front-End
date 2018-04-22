@@ -1,0 +1,54 @@
+#page{
+    width:455px;
+    margin:0 auto;
+}
+ 
+td {
+    font-family:arial;
+    color: black;
+    padding:10px;
+    width:50px;
+    height:50px;
+    text-align:center;
+    border:10px solid red;
+    background-color: white;
+}
+
+.bingohead {
+    border:10px solid #c2324c;
+}
+
+h1, {
+    font-family:arial;
+    text-align:center;
+    color:#211111;
+    text-decoration: underline;
+}
+
+td {
+    cursor:pointer;
+}
+
+th {
+    background-color: white;
+
+}
+
+#NumberGenerator {
+    margin: auto;
+    text-transform: 
+
+}
+
+#Bingo {
+    margin: auto;
+
+}
+
+.bigNumberDisplay {
+    font-size: 6em;
+}
+
+
+
+

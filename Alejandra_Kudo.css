@@ -1,0 +1,41 @@
+
+		h1 {
+			text-decoration: underline;
+			font-size: 3em;
+			background-color: #D80000;
+			color: #FFFFFF;
+			text-align: center;
+		}
+
+		h2{
+			text-decoration: underline;
+		}
+
+		h3{
+			text-decoration: underline;
+
+			}
+
+		body{
+			color: #00009;
+			font-family: Verdana, Helvetica, sans-serif;
+		}
+
+	span.Ingredients {
+		background-color: blue;
+	}
+	
+	span.Instructions {
+		background-color: blue;
+	}
+		 
+	#RecipeLink {
+		color: #000099;
+
+	}
+
+    #copyright {
+        color: #000000;
+        font-size: 0.7em;
+        text-align: center;
+    }

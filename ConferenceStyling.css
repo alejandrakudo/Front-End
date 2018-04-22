@@ -1,0 +1,49 @@
+h1 {
+	text-decoration: underline;
+	color: white ;
+	background-color: black;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+	color: blue;
+	text-align: center;
+}
+
+body {
+	font-family: Verdana, sans-serif, Helvetica;
+}
+
+fieldset {
+	margin: auto;
+}
+
+span.Personal {
+	text-decoration: bold;
+	font-size: 1.3em;
+	color: red;
+
+}
+
+span.Additional {
+	text-decoration: bold;
+	font-size: 1.3em;
+	color: red;
+}
+
+span.Sessions {
+	text-decoration: bold;
+	font-size: 1.3em;
+	color: red;
+}
+
+#img {
+	text-align: center;
+}
+
+#copyright {
+	color: black;
+	font-size: 0.7em;
+	text-align: center;
+}

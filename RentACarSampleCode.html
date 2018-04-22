@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wreck-ME Car Rental</title>
+</head>
+<body>
+    <h1>Wreck-ME Car Rental</h1>
+    <form name = "rentalInfo" action="PHPFileExample.php" method="POST" enctype="multipart/formdata">
+	<fieldset>
+	<legend>Customer Info</legend>
+	  <p>Name: <input type = "text" name = "cName" required="required"></p>
+	  <p>Phone: <input type = "tel" name = "phone" placeholder="ex: 555 666-6666"></p>
+	  <p>Postal Code: <input type = "text" name = "pCode" maxlength = "6" size = "6"></p>
+	  <p>Email: <input type = "email" name = "email"></p>
+	  <p>Please upload a scan of your driver's license. &nbsp &nbsp
+	  <input type="file" name = "licensePhoto"></p>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Rental Info</legend>
+	   <p>What type of car do you want to rent?</p>
+       <select name="carTorent">
+	   <option> </option>
+	   <optgroup label = "Compact">
+         <option>Honda Fit</option>
+         <option>Austin Mini</option>
+	   <optgroup label = "Mid size">
+         <option>Nissan Sentra</option>
+         <option>Toyota Corolla</option>
+	   <optgroup label = "Full size">
+	     <option>Honda Accord</option>
+		 <option>Dodge Caravan</option>
+	   </select>
+       <p>Date of Rental:
+        <!-- Note that placeholder does not restrict what can be entered.  It is just a suggestion -->	
+	    <input type="text" name = "rentalDate" placeholder="yyyy-mm-dd"></p>
+       
+	   <p>Number of Days
+		<input type="number" name = "numDays" min=0></p>
+
+	   <p>Additional Options:</p>
+	    <p>
+	     <input type="checkbox" name = "gps" value="GPS">GPS
+		 <input type="checkbox" name = "carseat" value = "Car Seat">Child Seat
+		 <input type="checkbox" name = "driver" value = "Additional Driver">Additional Driver
+		</p>
+	    <p>Transmission:</p>
+		<input type="radio" name="trans" value="automatic" checked> Automatic<br>
+		<input type="radio" name="trans" value="manual"> Manual
+      </fieldset>
+	<input type="submit" value="Rent Me" name = "Submit">
+
+	</form>
+</body>
+</html>
